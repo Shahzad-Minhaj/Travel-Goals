@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#guide{
+    color: white;
+    margin-top: 120px;
+    text-indent: 100px;
+}
+section{
+    width: 90%;
+    margin-top:30px;
+}
+section img {
+    width: 300px;
+    height: 290px;
+    margin: 30px 250px;
+    object-fit: cover;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-color: rgba(228 246 253 / 62%);
+    font-family: sans-serif;
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: rgb(64 64 64 / 0%);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    margin: 10px;
+
+}
+input,textarea,select{
+    display: block;
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(74, 112, 135);
+    font:inherit
+
+}
+input:focus, text:focus,textarea:focus{
+    background-color: rgba(184, 177, 177, 0.438);
+    border: 1px solid rgba(49, 48, 48, 0.979);
+}
+textarea{
+    resize: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+#submit{
+    background-color: rgb(88, 29, 122);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(72, 24, 100);
+}
+#clear{
+   
+    padding: 5px 10px;
+}
+#clear:hover{
+    background-color: rgb(226, 230, 230);
+}
+#submit:hover{
+    background-color:rgb(110, 44, 148) ;
+}
+#action{
+    text-align: right;
+}
+.style{
+    display: flex;
+}
+.style input{
+    width: auto;
+    margin: 10px;
+}
+.style label{
+    margin-left: 0;
+}
+#user-form{
+color: #ffffff;
+margin-top: 140px;
+}
+button{
+    background-color: rgb(201, 220, 28);
+    padding: 5px 10px;
+    border: 1px solid rgb(201, 220, 28);
+    border-radius: 2px;
+    margin: 10px 0 10px 440px;
+}
+button:hover{
+    background-color: rgb(211, 225, 86);
+    border: 1px solid rgb(209, 223, 88);
+    cursor: pointer;
+}

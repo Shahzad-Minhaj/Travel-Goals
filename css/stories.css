@@ -1,0 +1,19 @@
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px
+}
+.ist {
+    display: block;
+    /* background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden; */
+}
+main .ist img {
+    width: 300px;
+    height: 290px;
+    object-fit: cover;
+}
